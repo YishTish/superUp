@@ -1,0 +1,13 @@
+.color_div {
+    height: 300px;
+    width: 300px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 15px;
+}

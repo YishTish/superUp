@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperUp assignment</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <h1>SuperUp assignment - Yishai Landau</h1>
+<h3>Description:</h3>
+<p>Create a Web page that will allow to enter color in different languages (select language can  be done in drop down) and upon submit the color section will turn to be in requested color</p>
+<hr/>
+
+    <div>
+        <ul>
+            <li>Color: <input type="text" name="color" id="colorText"></li>
+            <li>Language: <select name="language" id="languageSelect">
+                <option value="he">עברית</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select></li>
+            <li><input type="button" value="Change div color" onclick="getColor()"></li>
+        </ul>
+</div>
+    <p>This is the part that changes color:</p>
+<div id="colored_div" class="color_div">
+
+</div>
+</body>
+</html>
